@@ -1,0 +1,33 @@
+title: DisqusTest
+email: cresspresso@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Epic website description
+baseurl: "/disqustest" # the subpath of your site, e.g. /blog
+#twitter_username: jekyllrb
+github_username: Cresspresso
+
+permalink: /:categories/:year-:month-:day/:title/
+
+#include:
+#  - _scripts
+#collections:
+#  - scripts
+
+# Build settings
+excerpt_separator: ""
+markdown: kramdown
+#highlighter: rouge
+#kramdown:
+#  input: GFM
+#  syntax_highlighter: rouge
+#  hard_wrap: false
+#theme: minima
+
+#highlight_css: "native.css"
+
+gems:
+  - jekyll-feed
+#  - rouge
+exclude:
+  - Gemfile
+  - Gemfile.lock
