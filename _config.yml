@@ -2,9 +2,11 @@ title: DisqusTest
 email: cresspresso@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Epic website description
+domainurl: "https://cresspresso.github.io"
 baseurl: "/disqustest" # the subpath of your site, e.g. /blog
 #twitter_username: jekyllrb
 github_username: Cresspresso
+disqus_shortname: disqustest-18
 
 permalink: /:categories/:year-:month-:day/:title/
 
